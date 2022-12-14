@@ -1,0 +1,16 @@
+.intro__description {
+    max-width: 984px;
+    margin: 92px auto 0;
+}
+
+@media all (max-width: 768px) {
+    .intro__description {
+        max-width: 720px;
+    }
+}
+
+@media all (max-width: 425px) {
+    .intro__description {
+        max-width: 288px;
+    }
+}
