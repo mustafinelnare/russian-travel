@@ -1,8 +1,8 @@
 .place__title {
+    justify-self: start;
     font-size: 72px;
     font-weight: 900;
     line-height: 76px;
-    justify-self: start;
     margin: 0;
 }
 

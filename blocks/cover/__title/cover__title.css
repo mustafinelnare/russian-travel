@@ -2,12 +2,11 @@
     font-size: 72px;
     font-weight: 900;
     line-height: 76px;
-    max-width: 560px;
     text-align: center;
-    margin: 0;
     text-decoration: none;
+    max-width: 560px;
+    margin: 0;
     color: #ffffff;
-    z-index: 3;
 }
 
 @media screen and (max-width: 425px) {
