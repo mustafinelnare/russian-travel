@@ -10,3 +10,26 @@
 .place:last-child {
     margin-bottom: 0;
 }
+
+@media screen and (max-width: 1024px) {
+    .place {
+        max-width: 928px;
+        grid-template-columns: 440px, 1fr;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place {
+        max-width: 720px;
+        margin-top: 73px;
+        grid-template-columns: 340px, 1fr;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .place {
+        max-width: 320px;
+        margin-top: 50px;
+        grid-template-columns: 1fr;
+    }
+}

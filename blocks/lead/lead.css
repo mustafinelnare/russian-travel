@@ -3,14 +3,16 @@
     margin: 56px auto 0;
 }
 
-@media all (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .lead {
         max-width: 928px;
+        margin: 48px auto 0;
     }
 }
 
-@media all (max-width: 425px) {
+@media screen and (max-width: 425px) {
     .lead {
         max-width: 320px;
+        margin: 48px auto 0;
     }
 }

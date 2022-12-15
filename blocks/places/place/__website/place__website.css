@@ -2,3 +2,15 @@
     align-self: flex-end;
     justify-self: start;
 }
+
+@media screen and (max-width: 768px) {
+    .place__website {
+        max-width: 352px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .place__website {
+        max-width: 288px;
+    }
+}

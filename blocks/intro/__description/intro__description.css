@@ -3,14 +3,16 @@
     margin: 92px auto 0;
 }
 
-@media all (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .intro__description {
         max-width: 720px;
+        margin: 88px auto 0;
     }
 }
 
-@media all (max-width: 425px) {
+@media screen and (max-width: 425px) {
     .intro__description {
         max-width: 288px;
+        margin: 64px auto 0;
     }
 }

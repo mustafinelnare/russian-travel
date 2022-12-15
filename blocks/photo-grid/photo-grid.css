@@ -7,28 +7,31 @@
     gap: 16px;
 }
 
-@media all (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .photo-grid {
+        max-width: 928px;
         grid-template-rows: repeat(4, 1fr);
         grid-template-columns: repeat(3, 1fr);
         gap: 14px;
     }
 }
 
-@media all (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .photo-grid {
         max-width: 720px;
         grid-template-rows: repeat(6, 1fr);
         grid-template-columns: repeat(2, 1fr);
         gap: 16px;
+        margin-top: 88px;
     }
 }
 
-@media all (max-width: 425px) {
+@media screen and (max-width: 425px) {
     .photo-grid {
         max-width: 288px;
         grid-template-columns: 1fr;
         grid-template-rows: auto;
         grid-column: 12px;
+        margin-top: 64px;
     }
 }

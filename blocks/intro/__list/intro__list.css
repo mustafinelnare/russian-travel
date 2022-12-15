@@ -7,14 +7,15 @@
     list-style: none;
 }
 
-@media all (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .intro__list {
         max-width: 720px;
     }
 }
 
-@media all (max-width: 425px) {
+@media screen and (max-width: 425px) {
     .intro__list {
         max-width: 288px;
+        margin-top: 34px;
     }
 }

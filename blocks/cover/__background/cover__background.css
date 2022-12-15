@@ -5,12 +5,34 @@
     align-items: center;
     max-width: 1184px;
     min-height: 740px;
-    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(./../../../images/cover__background.jpg);
-    background-size: cover;
+    width: 100%;
     text-decoration: none;
     margin: 92px auto 0;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(./../../../images/cover__background.jpg);
 }
 
 .cover__background:hover {
-    opacity: 0.3;
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__background {
+        max-width: 1024px;
+        min-height: 640px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__background {
+        max-width: 768px;
+        min-height: 480px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .cover__background {
+        max-width: 320px;
+        min-height: 200px;
+    }
 }

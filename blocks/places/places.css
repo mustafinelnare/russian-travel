@@ -4,3 +4,23 @@
     max-width: 984px;
     margin: 92px auto 0;
 }
+
+@media screen and (max-width: 1024px) {
+    .places {
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .places {
+        max-width: 720px;
+        margin-top: 88px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .places {
+        max-width: 320px;
+        margin-top: 64px;
+    }
+}

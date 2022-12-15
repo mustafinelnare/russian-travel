@@ -2,26 +2,27 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    max-width: 1184px;
     align-items: end;
+    max-width: 1184px;
     padding-top: 28px;
     margin: 0 auto 48px;
 }
 
-@media all and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .header {
         max-width: 928px;
     }
 }
 
-@media all and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .header {
         max-width: 720px;
     }
 }
 
-@media all and (max-width: 425px) {
+@media screen and (max-width: 425px) {
     .header {
         max-width: 288px;
+        padding-top: 16px;
     }
 }
