@@ -1,4 +1,5 @@
 .cover__background {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -13,12 +14,19 @@
 }
 
 .cover__background::before {
-    background: #2A2C2F;
-    z-index: -1;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    background-color: #2A2C2F;
+    opacity: 0.4;
 }
 
 .cover__background:hover::before {
-    opacity: 0.8;
+    opacity: 0.7;
 }
 
 @media screen and (max-width: 1024px) {
