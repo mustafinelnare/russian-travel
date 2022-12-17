@@ -3,6 +3,12 @@
     margin: 92px auto 0;
 }
 
+@media screen and (max-width: 1024px) {
+  .intro__description {
+    margin-left: 48px;
+  }
+}
+
 @media screen and (max-width: 768px) {
     .intro__description {
         max-width: 720px;

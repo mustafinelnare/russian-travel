@@ -10,6 +10,7 @@
     text-decoration: none;
     background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(./../../../images/cover__background.jpg);
     background-size: cover;
+    background-position: center;
     margin: 92px auto 0;
 }
 
@@ -22,11 +23,11 @@
     width: 100%;
     min-height: 100%;
     background-color: #2A2C2F;
-    opacity: 0.4;
+    opacity: 0.3;
 }
 
 .cover__background:hover::before {
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 @media screen and (max-width: 1024px) {
@@ -40,6 +41,7 @@
     .cover__background {
         max-width: 768px;
         min-height: 480px;
+        margin-top: 90px;
     }
 }
 
@@ -47,5 +49,6 @@
     .cover__background {
         max-width: 320px;
         min-height: 200px;
+        margin-top: 66px;
     }
 }

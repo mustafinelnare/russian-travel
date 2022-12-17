@@ -6,12 +6,23 @@
     padding-bottom: 24px;
 }
 
+@media screen and (max-width: 1024px) {
+    .footer {
+      margin: 92px 48px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        margin: 88px 24px 0;
+    }
+}
+
 @media screen and (max-width: 425px) {
     .footer {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        margin: 64px auto 0;
-        padding-bottom: 24px;
+        margin: 64px 16px 0;
     }
 }

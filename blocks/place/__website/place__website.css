@@ -1,6 +1,7 @@
 .place__website {
-    justify-self: start;
-    align-self: flex-end;
+    display: grid;
+    grid-template-rows: 1fr;
+    align-items: flex-end;
 }
 
 @media screen and (max-width: 768px) {

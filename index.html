@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
     <head>
-        <meta charset="UTF-8">
+        <meta charset="UTF-8" >
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Путешествия по России</title>
         <link rel="stylesheet" href="./pages/index.css">
@@ -12,8 +12,8 @@
             <header class="header">
                 <img class="header__logo" src="./images/__logo.svg" alt="Логотип сайта">
                 <div class="header__lang">
-                    <a class="header__lang-link" href="#" target="_blank">Ru</a>
-                    <a class="header__lang-link" href="#" target="_blank">En</a>
+                    <a class="header__lang-link header__lang-link_active" href="#">Ru</a>
+                    <a class="header__lang-link" href="#">En</a>
                 </div>
             </header>
 
@@ -34,16 +34,16 @@
                             которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.
                         </p>
                         <ul class="intro__list">
-                            <li><span class="bold">Часовых поясов</span> 11</li>
-                            <li><span class="bold">Объектов природного наследия ЮНЕСКО</span> 12</li>
-                            <li><span class="bold">Объектов культурного наследия ЮНЕСКО</span> 16</li>
-                            <li><span class="bold">Природных заповедников</span> 105</li>
-                            <li><span class="bold">Аэропортов</span> 241</li>
+                            <li><span class="intro__bold">Часовых поясов</span> 11</li>
+                            <li><span class="intro__bold">Объектов природного наследия ЮНЕСКО</span> 12</li>
+                            <li><span class="intro__bold">Объектов культурного наследия ЮНЕСКО</span> 16</li>
+                            <li><span class="intro__bold">Природных заповедников</span> 105</li>
+                            <li><span class="intro__bold">Аэропортов</span> 241</li>
                         </ul>
                     </div>
                 </section>
 
-                <div class="photo-grid">
+                <section class="photo-grid">
                     <img class="photo-grid__item" src="./images/photo-grid__item1.jpg" alt="Фотография пейзажа 1">
                     <img class="photo-grid__item" src="./images/photo-grid__item2.jpg" alt="Фотография пейзажа 2">
                     <img class="photo-grid__item" src="./images/photo-grid__item3.jpg" alt="Фотография пейзажа 3">
@@ -56,13 +56,13 @@
                     <img class="photo-grid__item" src="./images/photo-grid__item10.jpg" alt="Фотография пейзажа 10">
                     <img class="photo-grid__item" src="./images/photo-grid__item11.jpg" alt="Фотография пейзажа 11">
                     <img class="photo-grid__item" src="./images/photo-grid__item12.jpg" alt="Фотография пейзажа 12">
-                </div>
+                </section>
 
                 <section class="places">
                     <div class="place">
                         <h2 class="place__title">Куршская коса</h2>
                         <div class="place__website">
-                            <h6 class="place__url-heading">URL</h6>
+                            <h3 class="place__url-heading">URL</h3>
                             <a class="place__link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
                         </div>
                         <img class="place__image" src="./images/place__image1.jpg" alt="Куршская коса">
@@ -81,7 +81,7 @@
                     <div class="place">
                         <h2 class="place__title">Кольский</h2>
                         <div class="place__website">
-                            <h6 class="place__url-heading">URL</h6>
+                            <h3 class="place__url-heading">URL</h3>
                             <a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank">National Geographic</a>
                         </div>
                         <img class="place__image" src="./images/place__image2.jpg" alt="Кольский полуостров">
@@ -97,7 +97,7 @@
                     <div class="place">
                         <h2 class="place__title">Алтай</h2>
                         <div class="place__website">
-                            <h6 class="place__url-heading">URL</h6>
+                            <h3 class="place__url-heading">URL</h3>
                             <a class="place__link" href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ" target="_blank">YouTube</a>
                         </div>
                         <img class="place__image" src="./images/place__image3.jpg" alt="Алтай">
@@ -116,7 +116,7 @@
                     <div class="place">
                         <h2 class="place__title">Зимний Байкал</h2>
                         <div class="place__website">
-                            <h6 class="place__url-heading">URL</h6>
+                            <h3 class="place__url-heading">URL</h3>
                             <a class="place__link" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a>
                         </div>
                         <img class="place__image" src="./images/place__image4.jpg" alt="Зимний Байкал">
@@ -132,7 +132,7 @@
                     <div class="place">
                         <h2 class="place__title">Карелия</h2>
                         <div class="place__website">
-                            <h6 class="place__url-heading">URL</h6>
+                            <h3 class="place__url-heading">URL</h3>
                             <a class="place__link" href="http://vodlozero.ru" target="_blank">http://vodlozero.ru/</a>
                         </div>
                         <img class="place__image" src="./images/place__image5.jpg" alt="Карелия">
@@ -154,11 +154,13 @@
                 </section>
             </main>
             <footer class="footer">
-                <a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a>
-                <a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
-                <a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
-                <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
-                <a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
+                <nav class="footer__links">
+                    <a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a>
+                    <a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
+                    <a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
+                    <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
+                    <a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
+                </nav>
                 <p class="footer__copyright">&copy; 2020. Эльнар</p>
             </footer>
         </div>
