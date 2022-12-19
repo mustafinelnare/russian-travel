@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     max-width: 984px;
+    grid-gap: 80px;
     margin: 92px auto 0;
 }
 
@@ -15,13 +16,13 @@
     .places {
         max-width: 720px;
         margin-top: 88px;
+        padding: 0 24px;
     }
 }
 
 @media screen and (max-width: 425px) {
     .places {
-        max-width: 320px;
         grid-gap: 50px;
-        margin: 64px 0 0;
+        margin-top: 64px;
     }
 }

@@ -4,15 +4,15 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .intro__description {
-    margin-left: 48px;
+    .intro__description {
+      padding: 0 24px;
   }
 }
 
 @media screen and (max-width: 768px) {
     .intro__description {
         max-width: 720px;
-        margin: 88px auto 0;
+        margin-top: 88px;
     }
 }
 
@@ -20,5 +20,6 @@
     .intro__description {
         max-width: 288px;
         margin: 64px auto 0;
+        padding: 0;
     }
 }
