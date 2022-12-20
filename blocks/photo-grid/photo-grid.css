@@ -13,6 +13,7 @@
         grid-template-rows: repeat(4, 1fr);
         grid-template-columns: repeat(3, 1fr);
         gap: 14px;
+        padding: 0 48px;
     }
 }
 
@@ -22,6 +23,7 @@
         grid-template-rows: repeat(6, 1fr);
         grid-template-columns: repeat(2, 1fr);
         gap: 16px;
+        padding: 0 24px;
     }
 }
 

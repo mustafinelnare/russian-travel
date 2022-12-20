@@ -9,6 +9,7 @@
 @media screen and (max-width: 1024px) {
     .places {
         max-width: 928px;
+        padding: 0 48px;
     }
 }
 
@@ -18,6 +19,12 @@
         margin-top: 88px;
         padding: 0 24px;
     }
+}
+
+@media (max-width: 550px) {
+    .place {
+      grid-template-columns: 1fr;
+  }
 }
 
 @media screen and (max-width: 425px) {
