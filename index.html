@@ -5,16 +5,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Путешествия по России</title>
         <link rel="stylesheet" href="./pages/index.css">
+        <link type="image/x-icon" href="./images/favicon.ico" rel="shortcut icon">
     </head>
 
     <body>
-        <div class="page">
+        <div class="page theme-dark">
             <header class="header">
                 <img class="header__logo" src="./images/__logo.svg" alt="Логотип сайта">
-                <div class="header__lang">
-                    <a class="header__lang-link header__lang-link_active" href="#">Ru</a>
-                    <a class="header__lang-link" href="#">En</a>
-                </div>
+                <button class="header__settings">Настройки</button>
             </header>
 
             <main class="content">
@@ -163,6 +161,21 @@
                 </nav>
                 <p class="footer__copyright">&copy; 2020. Эльнар</p>
             </footer>
+
+            <section class="popup">
+              <div class="popup__container">
+                <button class="popup__close-button"></button>
+                <div class="popup__lang">
+                  <button class="popup__button">Изменить тему</button>
+                  <div class="popup__place">
+                  <a class="popup__lang-link popup__lang-link_active" href="#">Ru</a>
+                  <a class="popup__lang-link" href="#">En</a>
+                  </div>
+                  <img class="popup__image" src="./images/map-icon.svg" alt="Путь">
+              </div>
+              </div>
+            </section>
         </div>
+        <script src="./vendor/script.js"></script>
     </body>
 </html>

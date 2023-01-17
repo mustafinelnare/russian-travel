@@ -1,0 +1,18 @@
+.popup__container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 430px;
+  height: 330px;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 560px) {
+  .popup__container {
+    max-width: 282px;
+  }
+}
