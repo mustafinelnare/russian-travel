@@ -1,23 +1,23 @@
 .place__link {
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 22px;
-    text-decoration: underline;
-    color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  text-decoration: underline;
+  color: #fff;
 }
 
 .place__link:hover {
-    opacity: 0.8;
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 768px) {
-    .place__link {
-        max-width: 352px;
-    }
+  .place__link {
+    max-width: 352px;
+  }
 }
 
 @media screen and (max-width: 425px) {
-    .place__link {
-        max-width: 288px;
-    }
+  .place__link {
+    max-width: 288px;
+  }
 }

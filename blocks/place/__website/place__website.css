@@ -1,19 +1,19 @@
 .place__website {
-    display: grid;
-    grid-template-rows: 1fr;
-    align-items: flex-end;
+  display: grid;
+  grid-template-rows: 1fr;
+  align-items: flex-end;
 }
 
 @media screen and (max-width: 768px) {
-    .place__website {
-        max-width: 352px;
-    }
+  .place__website {
+    max-width: 352px;
+  }
 }
 
 @media screen and (max-width: 425px) {
-    .place__website {
-        max-width: 288px;
-        margin: 0 auto;
-        width: 100%;
-    }
+  .place__website {
+    max-width: 288px;
+    margin: 0 auto;
+    width: 100%;
+  }
 }

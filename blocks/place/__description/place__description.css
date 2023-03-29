@@ -1,7 +1,7 @@
 .place__description {
-    display: grid;
-    grid-gap: 26px;
-    grid-template-rows: max-content;
+  display: grid;
+  grid-gap: 26px;
+  grid-template-rows: max-content;
 }
 
 @media screen and (max-width: 768px) {
@@ -13,6 +13,5 @@
 @media screen and (max-width: 425px) {
   .place__description {
     grid-gap: 25px;
-    margin: 0 auto;
   }
 }

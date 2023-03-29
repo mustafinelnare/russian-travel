@@ -1,6 +1,6 @@
 .page {
-    min-width: 320px;
-    font-family: "Inter", sans-serif;
-    color: #ffffff;
-    margin: 0 auto;
+  font-family: "Inter", sans-serif;
+  min-width: 320px;
+  margin: 0 auto;
+  color: #fff;
 }
